@@ -1,4 +1,4 @@
-# pytohn3
+#! pytohn3
 # -*- coding: utf8 -*-
 '''
     預設即為utf8
