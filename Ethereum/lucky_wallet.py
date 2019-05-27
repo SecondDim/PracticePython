@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 
-# pip install ecdsa
-# pip install pysha3
+# sudo pip3 install ecdsa
+# sudo pip3 install pysha3
 
 from ecdsa import SigningKey, SECP256k1
 import sha3
@@ -14,7 +14,7 @@ from ethereum.transactions import Transaction
 import time
 import binascii
 
-lucky_wallet = ""
+lucky_wallet = "0x"
 rpc_server = ""
 
 
